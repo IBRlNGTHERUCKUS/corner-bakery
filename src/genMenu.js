@@ -1,12 +1,13 @@
-function generateMenu() {
-    const content = document.querySelector('content');
+function generateMenu(menuItems) {
+    console.log(menuItems);
+    const content = document.querySelector(".content");
     // Hero image and section name
     const hero = document.createElement('div');
     hero.textContent = 'Menu';
     hero.classList.add('hero');
     content.append(hero);
     // Menu items
-    const menu = document.createElement(div);
+    const menu = document.createElement('div');
     for (let item of menuItems) {
         // Create the necessary elements
         let itemContainer = document.createElement('div');
@@ -25,6 +26,7 @@ function generateMenu() {
         menu.append(itemContainer);
     }
     content.append(hero);
+    content.append(menu);
 }
 
-export function generateMenu();
+export {generateMenu};
