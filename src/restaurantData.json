@@ -2,25 +2,25 @@
     "about": "dsd",
     "menuItems": [
     {
-        "name" : "",
+        "name" : "Cookies",
+        "desc" : "Chocolate Chip = White Chocolate Macadamia Nut - PeanutButter - Sugar Cookies",
+        "image" : "dddddd",
+        "price" : 5
+    },
+    {
+        "name" : "Pies",
         "desc" : "",
         "image" : "dddddd",
         "price" : 2
     },
     {
-        "name" : "",
+        "name" : "Macroons",
         "desc" : "",
         "image" : "dddddd",
         "price" : 2
     },
     {
-        "name" : "",
-        "desc" : "",
-        "image" : "dddddd",
-        "price" : 2
-    },
-    {
-        "name" : "",
+        "name" : "Strudel",
         "desc" : "",
         "image" : "dddddd",
         "price" : 2

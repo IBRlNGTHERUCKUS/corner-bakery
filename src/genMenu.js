@@ -21,6 +21,10 @@ function generateMenu(menuItems) {
         itemImage.classList.add('item-image');
         itemDesc.classList.add('item-description');
         itemPrice.classList.add('item-price');
+        // Fill data
+        itemName.textContent = item.name;
+        itemDesc.textContent = item.desc;
+        itemPrice.textContent = item.price;
         // Attach items 
         itemContainer.append(itemImage, itemName, itemDesc, itemPrice);
         menu.append(itemContainer);
