@@ -29,17 +29,21 @@ header {
     height: 300px;
     text-align: center;
     background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-attachment:fixed;
 }
 
 .hero-text {
+    margin: 0;
     padding:40px 0px;
     width: 100%;
     color: white;
     background-color: rgba(0, 0, 0, 0.44);
+    position: sticky;
+    font-size: 32px;
+    top: 0;
 }
 
 .section-header {
