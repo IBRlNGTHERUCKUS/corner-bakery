@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     padding: 0px 20px;
     display: flex;
@@ -18,4 +22,33 @@ header {
 
 .tab {
     padding: 20px;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-line {
+    width: 25%;
+    height: 1px;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    width: fit-content
+}
+
+.section-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.item-container {
+    width: 200px;
 }

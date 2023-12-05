@@ -9,12 +9,20 @@ function generateMenu(menuItems) {
     // Menu items
     const menu = document.createElement('div');
     for (let section of menuItems) {
-        // Create section title
+        // Create section header
+        const sectionHeader = document.createElement('div');
         const sectionName = document.createElement('h1');
+        const sectionLine1 = document.createElement('div');
+        const sectionLine2 = document.createElement('div');
+        sectionHeader.classList.add('section-header');
+        sectionLine1.classList.add('section-line');
+        sectionLine2.classList.add('section-line');
         sectionName.textContent = section.sectionName;
-        menu.append(sectionName)
+        sectionHeader.append(sectionLine1, sectionName, sectionLine2)
+        menu.append(sectionHeader)
         // Create section content
         const sectionContainer = document.createElement('div');
+        sectionContainer.classList.add('section-container');
         for (let item of section.sectionItems) {
             // Create the necessary elements
             let itemContainer = document.createElement('div');

@@ -1,29 +1,61 @@
 {
     "about": "dsd",
     "menuItems": [
-    {
-        "name" : "Cookies",
-        "desc" : "Chocolate Chip = White Chocolate Macadamia Nut - PeanutButter - Sugar Cookies",
-        "image" : "dddddd",
-        "price" : 5
-    },
-    {
-        "name" : "Pies",
-        "desc" : "",
-        "image" : "dddddd",
-        "price" : 2
-    },
-    {
-        "name" : "Macroons",
-        "desc" : "",
-        "image" : "dddddd",
-        "price" : 2
-    },
-    {
-        "name" : "Strudel",
-        "desc" : "",
-        "image" : "dddddd",
-        "price" : 2
-    }
+        {   
+            "sectionName" : "Sweet",
+            "sectionItems": [
+            {
+                "name" : "Cookies",
+                "desc" : "Chocolate Chip - White Chocolate Macadamia Nut - PeanutButter - Sugar Cookies",
+                "image" : "dddddd",
+                "price" : 5
+            },
+            {
+                "name" : "Pies",
+                "desc" : "Pumpkin - Apple - Cherry",
+                "image" : "dddddd",
+                "price" : 15
+            },
+            {
+                "name" : "Macroons",
+                "desc" : "Vanilla - Strawberry - Red Velvet - Blueberry",
+                "image" : "dddddd",
+                "price" : 8
+            },
+            {
+                "name" : "Strudel",
+                "desc" : "Deliciously flaky, guava and cream cheese filling.",
+                "image" : "dddddd",
+                "price" : 2
+            } ]
+        },
+        { 
+            "sectionName" : "Savory",
+            "sectionItems": [
+            {
+                "name" : "Cookies",
+                "desc" : "Chocolate Chip - White Chocolate Macadamia Nut - PeanutButter - Sugar Cookies",
+                "image" : "dddddd",
+                "price" : 5
+            },
+            {
+                "name" : "Pies",
+                "desc" : "",
+                "image" : "dddddd",
+                "price" : 2
+            },
+            {
+                "name" : "Macroons",
+                "desc" : "",
+                "image" : "dddddd",
+                "price" : 2
+            },
+            {
+                "name" : "Strudel",
+                "desc" : "",
+                "image" : "dddddd",
+                "price" : 2
+            } ]
+        }
     ]
 }
