@@ -71,7 +71,7 @@ header {
     background-color: black;
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
     width: fit-content
 }
@@ -87,6 +87,9 @@ h1 {
 .item-container {
     width: 200px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .item-image {
@@ -101,4 +104,10 @@ h1 {
         background-position-y: bottom ;
         background-attachment: scroll;
     }
+}
+
+/* On about and contact pages */
+.section-content {
+    padding: 0px 1rem;
+    text-indent: 4rem;
 }
