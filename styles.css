@@ -120,7 +120,7 @@ h1, h2, h3 {
     }
 }
 
-.content {
+.content, .hero {
     animation-name: fadeIn;
     animation-duration: 1.5s;
 }
